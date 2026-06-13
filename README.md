@@ -28,18 +28,17 @@
 
 ```yaml
 name: Saurabh Shukla
-title: Senior Software Engineer
+role: Senior Software Engineer
+location: Bangalore, India 🇮🇳
 experience: 6+ years
-location: Bangalore, India
 focus:
   - Full-stack SaaS & REST APIs
   - Microservices & system design
   - GenAI / LLM integrations
-currently:
-  - Member of Technical Staff @ Aissel Technologies
-  - Building AI-powered product workflows
-  - Contributing to the Laravel ecosystem
-philosophy: "Architect systems that survive scale, refactors, and 2 AM incidents."
+current: Tech Staff @ Aissel
+philosophy: >
+  ship systems that survive
+  scale, refactors & 2AM pages
 ```
 
 </td>
@@ -89,11 +88,18 @@ When I'm not coding, you'll find me writing on my [blog](https://saurabhshukla.c
 
 <div align="center">
 
+![Years](https://img.shields.io/badge/Coding-6%2B%20years-6366F1?style=flat-square&labelColor=0D1117)
+![Focus](https://img.shields.io/badge/Focus-Backend%20%C2%B7%20GenAI-22C55E?style=flat-square&labelColor=0D1117)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-F59E0B?style=flat-square&labelColor=0D1117)
+![Coffee](https://img.shields.io/badge/Powered%20by-Coffee%20%E2%98%95-A855F7?style=flat-square&labelColor=0D1117)
+
+<br>
+
 <img src="https://github-readme-stats.vercel.app/api?username=saurabhshukla-developer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9&count_private=true&include_all_commits=true" height="165"/>
 <img src="https://github-readme-streak-stats.demolab.com/?user=saurabhshukla-developer&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saurabhshukla-developer&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&langs_count=8" height="165"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=saurabhshukla-developer&theme=discord&no-frame=true&column=7&margin-w=15&margin-h=15"/>
+<img src="https://github-profile-trophy.vercel.app/?username=saurabhshukla-developer&theme=discord&no-frame=true&column=4&row=2&margin-w=8&margin-h=8"/>
 
 <img src="https://raw.githubusercontent.com/saurabhshukla-developer/saurabhshukla-developer/output/profile-3d-contrib.svg" alt="3D GitHub contribution graph" width="100%"/>
 
@@ -109,20 +115,15 @@ When I'm not coding, you'll find me writing on my [blog](https://saurabhshukla.c
 
 </div>
 
-<table>
-<tr>
-<td><b>Laravel</b></td><td>██████████████████░░</td><td>95%</td>
-<td><b>PHP</b></td><td>█████████████████░░░</td><td>92%</td>
-</tr>
-<tr>
-<td><b>MySQL</b></td><td>████████████████░░░░</td><td>90%</td>
-<td><b>GenAI</b></td><td>████████████████░░░░</td><td>88%</td>
-</tr>
-<tr>
-<td><b>Node.js</b></td><td>███████████████░░░░░</td><td>85%</td>
-<td><b>AWS</b></td><td>██████████████░░░░░░</td><td>80%</td>
-</tr>
-</table>
+<div align="center">
+
+| Core | Proficiency | | Core | Proficiency |
+|:--|:--|:-:|:--|:--|
+| **Laravel** | `▰▰▰▰▰▰▰▰▰▱` 95 | | **GenAI / LLM** | `▰▰▰▰▰▰▰▰▱▱` 88 |
+| **PHP** | `▰▰▰▰▰▰▰▰▰▱` 92 | | **Node.js** | `▰▰▰▰▰▰▰▰▱▱` 85 |
+| **MySQL** | `▰▰▰▰▰▰▰▰▰▱` 90 | | **AWS** | `▰▰▰▰▰▰▰▱▱▱` 80 |
+
+</div>
 
 <details>
 <summary><b>🧩 System Architecture I Ship</b></summary>
@@ -287,7 +288,7 @@ npm install say-it-now
 
 ```javascript
 const { sayItNow } = require('say-it-now');
-console.log(sayItNow('motivation')); // "You've got this!" 💪
+sayItNow('motivation'); // → "You've got this!" 💪
 ```
 
 [📦 npm](https://www.npmjs.com/package/say-it-now) · [📖 GitHub](https://github.com/packageengine/say-it-now)
