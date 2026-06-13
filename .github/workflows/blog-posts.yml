@@ -1,0 +1,26 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Sync latest posts from saurabhshukla.com/blog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://saurabhshukla.com/blog/feed"
+          max_post_count: "5"
+          template: "- [$title]($url) — *$date*"
+          date_format: "mmm dd, yyyy"
+          accept_header: "application/atom+xml, application/rss+xml"
+          commit_message: "docs: sync latest blog posts from saurabhshukla.com/blog"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
