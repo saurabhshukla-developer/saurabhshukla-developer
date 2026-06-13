@@ -101,7 +101,11 @@ When I'm not coding, you'll find me writing on my [blog](https://saurabhshukla.c
 
 <img src="https://github-profile-trophy.vercel.app/?username=saurabhshukla-developer&theme=discord&no-frame=true&column=4&row=2&margin-w=8&margin-h=8"/>
 
-<img src="https://raw.githubusercontent.com/saurabhshukla-developer/saurabhshukla-developer/output/profile-3d-contrib.svg" alt="3D GitHub contribution graph" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabhshukla-developer/saurabhshukla-developer/main/profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saurabhshukla-developer/saurabhshukla-developer/main/profile-3d-contrib/profile-green-animate.svg">
+  <img src="https://raw.githubusercontent.com/saurabhshukla-developer/saurabhshukla-developer/main/profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution graph" width="100%"/>
+</picture>
 
 </div>
 
